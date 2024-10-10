@@ -20,7 +20,9 @@ The initial design of the competition, the selected Word Error Rate (WER) evalua
 Fortunately, I was curious to build a straightforward LLM fine-tuning solution.  Throughout the competition, the training dataset had several changes, and I believe the most recent rule updates now prevent the use of token-level labels from the original JSON files.
 
 ## H2O LLM Studio
+
 ![H2O LLM Studio](imgs/llm-studio-logo.png)
+
 H2O LLM Studio is a framework and no-code GUI designed for fine-tuning state-of-the-art large language models.
 
 With H2O LLM Studio, you can
@@ -100,3 +102,4 @@ pip install jiwer
 # start H2O LLM Studio
 make llmstudio
 ```
+This command will start the H2O wave server and app. Navigate to http://localhost:10101/ to access H2O LLM Studio and start fine-tuning your models!
