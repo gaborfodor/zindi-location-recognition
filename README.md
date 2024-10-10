@@ -84,7 +84,7 @@ The finished experiment can be exported to [Hugging Face Hub](https://huggingfac
 
 ## Install H2O LLM Studio and start your own fine-tuning
 H2O LLM Studio is an open-source project, making it easy to modify and extend with new features. Since the competition used WER for evaluation, I added it as a validation metric. 
-Select the `locrec` branch from my [fork](https://github.com/gaborfodor/h2o-llmstudio).
+Select the `locrec` branch from my [fork](https://github.com/gaborfodor/h2o-llmstudio/tree/locrec).
 
 
 To install H2O LLM Studio you can follow the default instructions:
