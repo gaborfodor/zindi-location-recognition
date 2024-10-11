@@ -40,7 +40,7 @@ For train-validation split 80-20% random sample was used.
 I had some experiments with text cleaning or fixing the labels, but ultimately, the dataset remained unchanged. I suspect that the test set contained similar inconsistencies and label noise as the training set.
 
 
-Importing the dataset into H2O LLMStudio is easy.
+Importing the [prepared dataset](https://drive.google.com/file/d/1yD8vhZPRert9g37_BBdSvn2YF4RZ0nnr/view?usp=drive_link) into H2O LLMStudio is easy.
 Just select the tweet `text`as the prompt column and `location` as the answer column. We will try to finetune the base models to recognize all the mentioned locations in the tweet.
 ![Import Data](imgs/ImportDataset.png)
 ![Imported Data](imgs/dataviz.png)
