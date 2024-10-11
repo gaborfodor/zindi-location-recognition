@@ -23,7 +23,7 @@ Fortunately, I was curious to build a straightforward LLM fine-tuning solution. 
 
 ![H2O LLM Studio](imgs/llm-studio-logo.png)
 
-H2O LLM Studio is a framework and no-code GUI designed for fine-tuning state-of-the-art large language models.
+[H2O LLM Studio](https://github.com/h2oai/h2o-llmstudio) is a framework and no-code GUI designed for fine-tuning state-of-the-art large language models.
 
 With H2O LLM Studio, you can
 * easily and effectively fine-tune LLMs without the need for any coding experience.
