@@ -59,15 +59,15 @@ Upon reviewing the validation set errors, I noticed that the models performed we
 ![Experiments](imgs/experiments.png)
 
 ### Best settings
-* *LLM Backbone*:  [meta-llama/Meta-Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B)
-* *Backbone Dtype*: int4 -> bfloat16
-* *Epochs*: 1 -> 2
-* Warmup Epochs*: 0.0 -> 0.1
-* *Lora R*: 4 -> 16
-* *Lora Alpha*: 16 -> 64
-* *Metric*: WER
-* *Min Length Inference*: 2 -> 1
-* *Max Length Inference*: 256 -> 99
+* **LLM Backbone**:  [meta-llama/Meta-Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B)
+* **Backbone Dtype**: int4 -> bfloat16
+* **Epochs**: 1 -> 2
+* **Warmup Epochs**: 0.0 -> 0.1
+* **Lora R**: 4 -> 16
+* **Lora Alpha**: 16 -> 64
+* **Metric**: WER
+* **Min Length Inference**: 2 -> 1
+* **Max Length Inference**: 256 -> 99
 
 
 ## Required Resources
